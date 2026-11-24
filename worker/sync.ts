@@ -185,18 +185,6 @@ export async function handleSyncRequest(request: Request, env: SyncEnv): Promise
     return json({ library: [], revoked: [] });
   }
 
-  if (path === "/v1/creator" && method === "GET") {
-    return err(404, "not_creator", "Not a creator");
-  }
-
-  if (path === "/v1/listings" && method === "GET") {
-    return json({ listings: [] });
-  }
-
-  if (path === "/v1/creator/sales" && method === "GET") {
-    return json({ sales: [] });
-  }
-
   if (path === "/v1/devices" && method === "GET") {
     const rows = await env.DB.prepare(
       "SELECT token, device_name, created_at FROM device_tokens WHERE account_id = ? ORDER BY created_at DESC"
