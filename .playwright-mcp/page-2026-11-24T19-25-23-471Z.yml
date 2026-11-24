@@ -1,0 +1,618 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - complementary "Main" [ref=e4]:
+      - separator "Resize the sidebar" [ref=e5]
+      - generic [ref=e6]:
+        - button "Etude, go to Library" [ref=e7]:
+          - generic "Etude" [ref=e8]: εtude
+        - button "Fold sidebar" [expanded] [ref=e9]
+      - tablist "Show in the sidebar" [ref=e12]:
+        - tab "Pages" [selected] [ref=e13]
+        - tab "Chats" [ref=e14]
+      - navigation [ref=e15]:
+        - generic [ref=e16]:
+          - generic [ref=e17]: Study
+          - button "Library" [ref=e20]
+          - generic [ref=e24]:
+            - button "Notebook" [expanded] [ref=e25]
+            - tree "Pages" [ref=e32]:
+              - treeitem "Fold Notes showcase" [expanded] [ref=e33] [cursor=pointer]:
+                - button "Fold" [ref=e34]
+                - generic [ref=e37]: Notes showcase
+              - treeitem "Start here" [ref=e38] [cursor=pointer]
+              - treeitem "Writing basics" [ref=e40] [cursor=pointer]
+              - treeitem "Links, tags and the graph" [ref=e42] [cursor=pointer]
+              - treeitem "Math, tables and callouts" [ref=e44] [cursor=pointer]
+              - treeitem "Look and layout" [ref=e46] [cursor=pointer]
+              - treeitem "Cards inside a page" [ref=e48] [cursor=pointer]
+              - treeitem "Code you can run" [ref=e50] [cursor=pointer]
+              - treeitem "Pictures, video and PDFs" [ref=e52] [cursor=pointer]
+              - treeitem "Drawing with canvases" [ref=e54] [cursor=pointer]
+              - treeitem "Tabs, split view and the sidebar" [ref=e56] [cursor=pointer]
+              - treeitem "Study loop · canvas CANVAS" [ref=e58] [cursor=pointer]:
+                - generic [ref=e59]: Study loop · canvas
+                - generic [ref=e60]: CANVAS
+              - treeitem "Why spaced retrieval works.pdf PDF" [ref=e61] [cursor=pointer]:
+                - generic [ref=e62]: Why spaced retrieval works.pdf
+                - generic [ref=e63]: PDF
+              - treeitem "Unfold Code files" [ref=e64] [cursor=pointer]:
+                - button "Unfold" [ref=e65]
+                - generic [ref=e68]: Code files
+          - button "Browse" [ref=e70]
+          - button "Stats" [ref=e77]
+          - button "Archive" [ref=e81]
+        - generic [ref=e86]:
+          - generic [ref=e87]: Make
+          - button "Card types" [ref=e90]
+          - button "Market" [active] [ref=e98]
+      - button "Settings · test · Sync on" [ref=e106]:
+        - generic [aria-hidden] [ref=e108]: T
+        - generic [ref=e110]:
+          - generic [ref=e111]: test
+          - generic [ref=e112]: Sync on
+    - main [ref=e117]:
+      - generic [ref=e291]:
+        - generic [ref=e292]:
+          - generic [ref=e293]:
+            - heading "Market" [level=1] [ref=e294]
+            - paragraph [ref=e295]:
+              - text: Decks, card types, themes and plugins people made. Most of it is free.
+              - link "Browse on GitHub" [ref=e296] [cursor=pointer]:
+                - /url: https://github.com/Zibhelina/etude-market
+          - button "Refresh" [ref=e297]
+        - navigation "Market sections" [ref=e298]:
+          - button "Discover" [ref=e299]
+          - button "Yours" [ref=e300]
+          - button "Selling" [ref=e301]
+        - generic [ref=e302]:
+          - textbox "Search the market" [ref=e303]:
+            - /placeholder: Search decks, card types, themes, plugins
+          - generic [ref=e304]: /
+        - group "Kind" [ref=e305]:
+          - button "All 36" [pressed] [ref=e306]:
+            - text: All
+            - generic [ref=e307]: "36"
+          - button "Decks 8" [ref=e308]:
+            - text: Decks
+            - generic [ref=e309]: "8"
+          - button "Card types 4" [ref=e310]:
+            - text: Card types
+            - generic [ref=e311]: "4"
+          - button "Themes 23" [ref=e312]:
+            - text: Themes
+            - generic [ref=e313]: "23"
+          - button "Plugins 1" [ref=e314]:
+            - text: Plugins
+            - generic [ref=e315]: "1"
+        - region "Featured" [ref=e316]:
+          - generic [ref=e318]:
+            - heading "Featured" [level=2] [ref=e319]
+            - paragraph [ref=e320]: Picked by the Etude team.
+          - generic [ref=e321]:
+            - generic "Featured, scroll sideways" [ref=e322]:
+              - link "Featured · deck Piano Hero Official Etude deck Learn real songs on the piano one short part at a time. 1 card Official Etude deck Etude Get it Details" [ref=e323] [cursor=pointer]:
+                - generic [ref=e325]:
+                  - generic [ref=e326]: Featured · deck
+                  - heading [level=2] [ref=e327]:
+                    - text: Piano Hero
+                    - img "Official Etude deck" [ref=e328]:
+                      - generic [ref=e330]: ε
+                  - paragraph [ref=e331]: Learn real songs on the piano one short part at a time.
+                  - generic [ref=e332]:
+                    - text: 1 card
+                    - generic [aria-hidden] [ref=e333]: ·
+                    - generic [ref=e334]:
+                      - img "Official Etude deck" [ref=e335]:
+                        - generic [ref=e337]: ε
+                      - text: Etude
+                  - generic [ref=e338]:
+                    - button "Get it" [ref=e339]
+                    - button "Details" [ref=e340]
+              - link "Featured · deck Geography Official Etude deck 438 places on real maps, in two decks. 438 cards · 13 parts Official Etude deck Etude Get it Details" [ref=e341] [cursor=pointer]:
+                - generic [ref=e343]:
+                  - generic [ref=e344]: Featured · deck
+                  - heading [level=2] [ref=e345]:
+                    - text: Geography
+                    - img "Official Etude deck" [ref=e346]:
+                      - generic [ref=e348]: ε
+                  - paragraph [ref=e349]: 438 places on real maps, in two decks.
+                  - generic [ref=e350]:
+                    - text: 438 cards · 13 parts
+                    - generic [aria-hidden] [ref=e351]: ·
+                    - generic [ref=e352]:
+                      - img "Official Etude deck" [ref=e353]:
+                        - generic [ref=e355]: ε
+                      - text: Etude
+                  - generic [ref=e356]:
+                    - button "Get it" [ref=e357]
+                    - button "Details" [ref=e358]
+              - link "Featured · deck Chess Official Etude deck A chess course you play on the board, 410 cards from naming squares to rook endgames. Tap or drag your moves. 410 cards · 18 parts Official Etude deck Etude Get it Details" [ref=e359] [cursor=pointer]:
+                - generic [ref=e361]:
+                  - generic [ref=e362]: Featured · deck
+                  - heading [level=2] [ref=e363]:
+                    - text: Chess
+                    - img "Official Etude deck" [ref=e364]:
+                      - generic [ref=e366]: ε
+                  - paragraph [ref=e367]: A chess course you play on the board, 410 cards from naming squares to rook endgames. Tap or drag your moves.
+                  - generic [ref=e368]:
+                    - text: 410 cards · 18 parts
+                    - generic [aria-hidden] [ref=e369]: ·
+                    - generic [ref=e370]:
+                      - img "Official Etude deck" [ref=e371]:
+                        - generic [ref=e373]: ε
+                      - text: Etude
+                  - generic [ref=e374]:
+                    - button "Get it" [ref=e375]
+                    - button "Details" [ref=e376]
+              - 'link "Featured · card type Type fast Official Etude deck A Monkeytype-style typing test: common words, your own word list or a passage, by word count or timed. Graded by WPM against a target. Card type · checked by script Official Etude deck Etude Get it Details" [ref=e377] [cursor=pointer]':
+                - generic [ref=e379]:
+                  - generic [ref=e380]: Featured · card type
+                  - heading [level=2] [ref=e381]:
+                    - text: Type fast
+                    - img "Official Etude deck" [ref=e382]:
+                      - generic [ref=e384]: ε
+                  - paragraph [ref=e385]: "A Monkeytype-style typing test: common words, your own word list or a passage, by word count or timed. Graded by WPM against a target."
+                  - generic [ref=e386]:
+                    - text: Card type · checked by script
+                    - generic [aria-hidden] [ref=e387]: ·
+                    - generic [ref=e388]:
+                      - img "Official Etude deck" [ref=e389]:
+                        - generic [ref=e391]: ε
+                      - text: Etude
+                  - generic [ref=e392]:
+                    - button "Get it" [ref=e393]
+                    - button "Details" [ref=e394]
+              - link "Featured · deck Flippy Bit Official Etude deck One card that's a whole arcade game. Invaders fall carrying a hex number (B7, 3C, F0…) and you flip eight bits with the keys 1 to 8 until they spell it, which shoots the invader down. 1 card Official Etude deck Etude Get it Details" [ref=e395] [cursor=pointer]:
+                - generic [ref=e397]:
+                  - generic [ref=e398]: Featured · deck
+                  - heading [level=2] [ref=e399]:
+                    - text: Flippy Bit
+                    - img "Official Etude deck" [ref=e400]:
+                      - generic [ref=e402]: ε
+                  - paragraph [ref=e403]: One card that's a whole arcade game. Invaders fall carrying a hex number (B7, 3C, F0…) and you flip eight bits with the keys 1 to 8 until they spell it, which shoots the invader down.
+                  - generic [ref=e404]:
+                    - text: 1 card
+                    - generic [aria-hidden] [ref=e405]: ·
+                    - generic [ref=e406]:
+                      - img "Official Etude deck" [ref=e407]:
+                        - generic [ref=e409]: ε
+                      - text: Etude
+                  - generic [ref=e410]:
+                    - button "Get it" [ref=e411]
+                    - button "Details" [ref=e412]
+              - 'link "Featured · deck Periodic table Official Etude deck All 118 elements, each asked eight ways, one subdeck per way: type the symbol, type the name, tap its cell on a blank table, name a lit-up cell, give its atomic number, period and group, its atomic mass, its family and block, and write its electron configuration. 944 cards · 8 parts Official Etude deck Etude Get it Details" [ref=e413] [cursor=pointer]':
+                - generic [ref=e415]:
+                  - generic [ref=e416]: Featured · deck
+                  - heading [level=2] [ref=e417]:
+                    - text: Periodic table
+                    - img "Official Etude deck" [ref=e418]:
+                      - generic [ref=e420]: ε
+                  - paragraph [ref=e421]: "All 118 elements, each asked eight ways, one subdeck per way: type the symbol, type the name, tap its cell on a blank table, name a lit-up cell, give its atomic number, period and group, its atomic mass, its family and block, and write its electron configuration."
+                  - generic [ref=e422]:
+                    - text: 944 cards · 8 parts
+                    - generic [aria-hidden] [ref=e423]: ·
+                    - generic [ref=e424]:
+                      - img "Official Etude deck" [ref=e425]:
+                        - generic [ref=e427]: ε
+                      - text: Etude
+                  - generic [ref=e428]:
+                    - button "Get it" [ref=e429]
+                    - button "Details" [ref=e430]
+              - 'link "Featured · deck Piano: chords, scales and the circle of fifths Learn piano chords and scales key by key, walking the circle of fifths: major and minor triads, their inversions, suspended, diminished and augmented triads, seventh chords in every inversion, then major, minor, pentatonic and blues scales, plus an interactive circle of fifths to explore, quiz and race against the clock. 356 cards · 10 parts Stefano Zucchini Get it Details" [ref=e431] [cursor=pointer]':
+                - generic [ref=e433]:
+                  - generic [ref=e434]: Featured · deck
+                  - 'heading "Piano: chords, scales and the circle of fifths" [level=2] [ref=e435]'
+                  - paragraph [ref=e436]: "Learn piano chords and scales key by key, walking the circle of fifths: major and minor triads, their inversions, suspended, diminished and augmented triads, seventh chords in every inversion, then major, minor, pentatonic and blues scales, plus an interactive circle of fifths to explore, quiz and race against the clock."
+                  - generic [ref=e437]:
+                    - text: 356 cards · 10 parts
+                    - generic [aria-hidden] [ref=e438]: ·
+                    - generic [ref=e439]: Stefano Zucchini
+                  - generic [ref=e440]:
+                    - button "Get it" [ref=e441]
+                    - button "Details" [ref=e442]
+              - 'link "Featured · deck Etude Showcase Official Etude deck A tour of what Etude cards can be: one card for each of 27 card types (chess, chords, kanji drawing, regex, typing tests...). 27 cards · 6 parts · tour Official Etude deck Etude Get it Details" [ref=e443] [cursor=pointer]':
+                - generic [ref=e445]:
+                  - generic [ref=e446]: Featured · deck
+                  - heading [level=2] [ref=e447]:
+                    - text: Etude Showcase
+                    - img "Official Etude deck" [ref=e448]:
+                      - generic [ref=e450]: ε
+                  - paragraph [ref=e451]: "A tour of what Etude cards can be: one card for each of 27 card types (chess, chords, kanji drawing, regex, typing tests...)."
+                  - generic [ref=e452]:
+                    - text: 27 cards · 6 parts · tour
+                    - generic [aria-hidden] [ref=e453]: ·
+                    - generic [ref=e454]:
+                      - img "Official Etude deck" [ref=e455]:
+                        - generic [ref=e457]: ε
+                      - text: Etude
+                  - generic [ref=e458]:
+                    - button "Get it" [ref=e459]
+                    - button "Details" [ref=e460]
+            - button "Previous featured"
+            - button "Next featured" [ref=e461]
+          - tablist "Featured" [ref=e464]:
+            - tab "Piano Hero" [selected] [ref=e465]
+            - tab "Geography" [ref=e466]
+            - tab "Chess" [ref=e467]
+            - tab "Type fast" [ref=e468]
+            - tab "Flippy Bit" [ref=e469]
+            - tab "Periodic table" [ref=e470]
+            - 'tab "Piano: chords, scales and the circle of fifths" [ref=e471]'
+            - tab "Etude Showcase" [ref=e472]
+        - generic [ref=e473]:
+          - generic [ref=e475]:
+            - heading "Decks" [level=2] [ref=e476]
+            - paragraph [ref=e477]: Install one and it shows up in your Library.
+          - generic [ref=e478]:
+            - link "Piano Hero Official Etude deck Free Learn real songs on the piano one short part at a time. 1 card" [ref=e479] [cursor=pointer]:
+              - generic [aria-hidden] [ref=e482]:
+                - generic [ref=e483]: Deck
+                - generic [ref=e484]:
+                  - text: Piano Hero
+                  - img [ref=e485]:
+                    - generic [ref=e487]: ε
+              - generic [ref=e488]:
+                - generic [ref=e489]:
+                  - generic [ref=e490]:
+                    - text: Piano Hero
+                    - img "Official Etude deck" [ref=e491]:
+                      - generic [ref=e493]: ε
+                  - generic [ref=e494]: Free
+                - paragraph [ref=e495]: Learn real songs on the piano one short part at a time.
+                - generic [ref=e496]: 1 card
+            - link "Geography Official Etude deck Free 438 places on real maps, in two decks. 438 cards · 13 parts" [ref=e498] [cursor=pointer]:
+              - generic [aria-hidden] [ref=e501]:
+                - generic [ref=e502]: Deck
+                - generic [ref=e503]:
+                  - text: Geography
+                  - img [ref=e504]:
+                    - generic [ref=e506]: ε
+              - generic [ref=e507]:
+                - generic [ref=e508]:
+                  - generic [ref=e509]:
+                    - text: Geography
+                    - img "Official Etude deck" [ref=e510]:
+                      - generic [ref=e512]: ε
+                  - generic [ref=e513]: Free
+                - paragraph [ref=e514]: 438 places on real maps, in two decks.
+                - generic [ref=e515]: 438 cards · 13 parts
+            - link "Chess Official Etude deck Free A chess course you play on the board, 410 cards from naming squares to rook endgames. 410 cards · 18 parts" [ref=e517] [cursor=pointer]:
+              - generic [aria-hidden] [ref=e520]:
+                - generic [ref=e521]: Deck
+                - generic [ref=e522]:
+                  - text: Chess
+                  - img [ref=e523]:
+                    - generic [ref=e525]: ε
+              - generic [ref=e526]:
+                - generic [ref=e527]:
+                  - generic [ref=e528]:
+                    - text: Chess
+                    - img "Official Etude deck" [ref=e529]:
+                      - generic [ref=e531]: ε
+                  - generic [ref=e532]: Free
+                - paragraph [ref=e533]: A chess course you play on the board, 410 cards from naming squares to rook endgames.
+                - generic [ref=e534]: 410 cards · 18 parts
+            - link "Flippy Bit Official Etude deck Free One card that's a whole arcade game. 1 card" [ref=e536] [cursor=pointer]:
+              - generic [aria-hidden] [ref=e539]:
+                - generic [ref=e540]: Deck
+                - generic [ref=e541]:
+                  - text: Flippy Bit
+                  - img [ref=e542]:
+                    - generic [ref=e544]: ε
+              - generic [ref=e545]:
+                - generic [ref=e546]:
+                  - generic [ref=e547]:
+                    - text: Flippy Bit
+                    - img "Official Etude deck" [ref=e548]:
+                      - generic [ref=e550]: ε
+                  - generic [ref=e551]: Free
+                - paragraph [ref=e552]: One card that's a whole arcade game.
+                - generic [ref=e553]: 1 card
+            - 'link "Periodic table Official Etude deck Free All 118 elements, each asked eight ways, one subdeck per way: type the symbol, type the name, tap its cell on a… 944 cards · 8 parts" [ref=e555] [cursor=pointer]':
+              - generic [aria-hidden] [ref=e558]:
+                - generic [ref=e559]: Deck
+                - generic [ref=e560]:
+                  - text: Periodic table
+                  - img [ref=e561]:
+                    - generic [ref=e563]: ε
+              - generic [ref=e564]:
+                - generic [ref=e565]:
+                  - generic [ref=e566]:
+                    - text: Periodic table
+                    - img "Official Etude deck" [ref=e567]:
+                      - generic [ref=e569]: ε
+                  - generic [ref=e570]: Free
+                - paragraph [ref=e571]: "All 118 elements, each asked eight ways, one subdeck per way: type the symbol, type the name, tap its cell on a…"
+                - generic [ref=e572]: 944 cards · 8 parts
+            - 'link "Piano: chords, scales and the circle of fifths Free Learn piano chords and scales key by key, walking the circle of fifths: major and minor triads, their inversions,… 356 cards · 10 parts Stefano Zucchini" [ref=e574] [cursor=pointer]':
+              - generic [aria-hidden] [ref=e577]:
+                - generic [ref=e578]: Deck
+                - generic [ref=e579]: "Piano: chords, scales and the circle of fifths"
+              - generic [ref=e580]:
+                - generic [ref=e581]:
+                  - generic [ref=e582]: "Piano: chords, scales and the circle of fifths"
+                  - generic [ref=e583]: Free
+                - paragraph [ref=e584]: "Learn piano chords and scales key by key, walking the circle of fifths: major and minor triads, their inversions,…"
+                - generic [ref=e585]:
+                  - generic [ref=e586]: 356 cards · 10 parts
+                  - generic [aria-hidden] [ref=e587]: ·
+                  - generic [ref=e588]: Stefano Zucchini
+            - 'link "Etude Showcase Official Etude deck Free A tour of what Etude cards can be: one card for each of 27 card types (chess, chords, kanji drawing, regex, typing… 27 cards · 6 parts · tour" [ref=e589] [cursor=pointer]':
+              - generic [aria-hidden] [ref=e592]:
+                - generic [ref=e593]: Deck
+                - generic [ref=e594]:
+                  - text: Etude Showcase
+                  - img [ref=e595]:
+                    - generic [ref=e597]: ε
+              - generic [ref=e598]:
+                - generic [ref=e599]:
+                  - generic [ref=e600]:
+                    - text: Etude Showcase
+                    - img "Official Etude deck" [ref=e601]:
+                      - generic [ref=e603]: ε
+                  - generic [ref=e604]: Free
+                - paragraph [ref=e605]: "A tour of what Etude cards can be: one card for each of 27 card types (chess, chords, kanji drawing, regex, typing…"
+                - generic [ref=e606]: 27 cards · 6 parts · tour
+            - 'link "Morse code Official Etude deck Free Every character with a Morse code: A to Z, 0 to 9, punctuation, prosigns like SOS and SK, and accented letters, 94… 94 cards · 5 parts" [ref=e608] [cursor=pointer]':
+              - generic [aria-hidden] [ref=e611]:
+                - generic [ref=e612]: Deck
+                - generic [ref=e613]:
+                  - text: Morse code
+                  - img [ref=e614]:
+                    - generic [ref=e616]: ε
+              - generic [ref=e617]:
+                - generic [ref=e618]:
+                  - generic [ref=e619]:
+                    - text: Morse code
+                    - img "Official Etude deck" [ref=e620]:
+                      - generic [ref=e622]: ε
+                  - generic [ref=e623]: Free
+                - paragraph [ref=e624]: "Every character with a Morse code: A to Z, 0 to 9, punctuation, prosigns like SOS and SK, and accented letters, 94…"
+                - generic [ref=e625]: 94 cards · 5 parts
+        - generic [ref=e627]:
+          - generic [ref=e628]:
+            - generic [ref=e629]:
+              - heading "Plugins" [level=2] [ref=e630]
+              - paragraph [ref=e631]: Free sandboxed extensions for desktop and web. Every plugin shows its permissions before you install it.
+            - button "See all" [ref=e632]
+          - generic "Plugins, scroll sideways" [ref=e634]:
+            - link "Pomodoro Official Etude deck Free A focus timer that floats over every screen, folds into a pill, chimes when a phase ends, and adds Ctrl/⌘K commands. Plugin · 4 permissions" [ref=e635] [cursor=pointer]:
+              - generic [aria-hidden] [ref=e638]:
+                - generic [ref=e639]: Plugin
+                - generic [ref=e640]:
+                  - text: Pomodoro
+                  - img [ref=e641]:
+                    - generic [ref=e643]: ε
+              - generic [ref=e644]:
+                - generic [ref=e645]:
+                  - generic [ref=e646]:
+                    - text: Pomodoro
+                    - img "Official Etude deck" [ref=e647]:
+                      - generic [ref=e649]: ε
+                  - generic [ref=e650]: Free
+                - paragraph [ref=e651]: A focus timer that floats over every screen, folds into a pill, chimes when a phase ends, and adds Ctrl/⌘K commands.
+                - generic [ref=e652]: Plugin · 4 permissions
+        - generic [ref=e654]:
+          - generic [ref=e655]:
+            - generic [ref=e656]:
+              - heading "Themes" [level=2] [ref=e657]
+              - paragraph [ref=e658]: Try one on. Nothing changes until you keep it.
+            - button "See all" [ref=e659]
+          - generic [ref=e660]:
+            - generic "Themes, scroll sideways" [ref=e661]:
+              - link "Osaka Jade Free Deep forest-green surfaces, jade accents and warm cream text. Dark theme Try it on" [ref=e662] [cursor=pointer]:
+                - generic [ref=e663]: Aa
+                - generic [ref=e680]:
+                  - generic [ref=e681]:
+                    - generic [ref=e682]: Osaka Jade
+                    - generic [ref=e683]: Free
+                  - paragraph [ref=e684]: Deep forest-green surfaces, jade accents and warm cream text.
+                  - generic [ref=e685]: Dark theme
+                - button "Try it on" [ref=e693]
+              - 'link "Catppuccin Frappé Free The softest dark Catppuccin: muted pastels on a dusky blue-grey base, with a mauve accent. Dark theme Try it on" [ref=e694] [cursor=pointer]':
+                - generic [ref=e695]: Aa
+                - generic [ref=e712]:
+                  - generic [ref=e713]:
+                    - generic [ref=e714]: Catppuccin Frappé
+                    - generic [ref=e715]: Free
+                  - paragraph [ref=e716]: "The softest dark Catppuccin: muted pastels on a dusky blue-grey base, with a mauve accent."
+                  - generic [ref=e717]: Dark theme
+                - button "Try it on" [ref=e725]
+              - 'link "Catppuccin Latte Free Catppuccin''s light flavor: crisp pastels on a cool off-white base, with a mauve accent. Light theme Try it on" [ref=e726] [cursor=pointer]':
+                - generic [ref=e727]: Aa
+                - generic [ref=e744]:
+                  - generic [ref=e745]:
+                    - generic [ref=e746]: Catppuccin Latte
+                    - generic [ref=e747]: Free
+                  - paragraph [ref=e748]: "Catppuccin's light flavor: crisp pastels on a cool off-white base, with a mauve accent."
+                  - generic [ref=e749]: Light theme
+                - button "Try it on" [ref=e757]
+              - 'link "Catppuccin Macchiato Free Catppuccin''s middle dark flavor: pastels on a slate-blue base, with a mauve accent. Dark theme Try it on" [ref=e758] [cursor=pointer]':
+                - generic [ref=e759]: Aa
+                - generic [ref=e776]:
+                  - generic [ref=e777]:
+                    - generic [ref=e778]: Catppuccin Macchiato
+                    - generic [ref=e779]: Free
+                  - paragraph [ref=e780]: "Catppuccin's middle dark flavor: pastels on a slate-blue base, with a mauve accent."
+                  - generic [ref=e781]: Dark theme
+                - button "Try it on" [ref=e789]
+              - 'link "Catppuccin Mocha Free The darkest Catppuccin: soothing pastels on a deep mocha base, with a mauve accent. Dark theme Try it on" [ref=e790] [cursor=pointer]':
+                - generic [ref=e791]: Aa
+                - generic [ref=e808]:
+                  - generic [ref=e809]:
+                    - generic [ref=e810]: Catppuccin Mocha
+                    - generic [ref=e811]: Free
+                  - paragraph [ref=e812]: "The darkest Catppuccin: soothing pastels on a deep mocha base, with a mauve accent."
+                  - generic [ref=e813]: Dark theme
+                - button "Try it on" [ref=e821]
+              - 'link "Dracula Free The classic vampire palette: dark violet-grey with vivid purple, pink and green. Dark theme Try it on" [ref=e822] [cursor=pointer]':
+                - generic [ref=e823]: Aa
+                - generic [ref=e840]:
+                  - generic [ref=e841]:
+                    - generic [ref=e842]: Dracula
+                    - generic [ref=e843]: Free
+                  - paragraph [ref=e844]: "The classic vampire palette: dark violet-grey with vivid purple, pink and green."
+                  - generic [ref=e845]: Dark theme
+                - button "Try it on" [ref=e853]
+              - link "Everforest Dark Free Green-based and warm, made to be easy on the eyes for long sessions, like a forest at dusk. Dark theme Try it on" [ref=e854] [cursor=pointer]:
+                - generic [ref=e855]: Aa
+                - generic [ref=e872]:
+                  - generic [ref=e873]:
+                    - generic [ref=e874]: Everforest Dark
+                    - generic [ref=e875]: Free
+                  - paragraph [ref=e876]: Green-based and warm, made to be easy on the eyes for long sessions, like a forest at dusk.
+                  - generic [ref=e877]: Dark theme
+                - button "Try it on" [ref=e885]
+              - 'link "Everforest Light Free Everforest by day: warm parchment with soft greens. Light theme Try it on" [ref=e886] [cursor=pointer]':
+                - generic [ref=e887]: Aa
+                - generic [ref=e904]:
+                  - generic [ref=e905]:
+                    - generic [ref=e906]: Everforest Light
+                    - generic [ref=e907]: Free
+                  - paragraph [ref=e908]: "Everforest by day: warm parchment with soft greens."
+                  - generic [ref=e909]: Light theme
+                - button "Try it on" [ref=e917]
+              - 'link "Gruvbox Dark Free Retro groove: warm earthy browns with bright orange, yellow and olive. Dark theme Try it on" [ref=e918] [cursor=pointer]':
+                - generic [ref=e919]: Aa
+                - generic [ref=e936]:
+                  - generic [ref=e937]:
+                    - generic [ref=e938]: Gruvbox Dark
+                    - generic [ref=e939]: Free
+                  - paragraph [ref=e940]: "Retro groove: warm earthy browns with bright orange, yellow and olive."
+                  - generic [ref=e941]: Dark theme
+                - button "Try it on" [ref=e949]
+              - 'link "Gruvbox Light Free Gruvbox on cream paper: sepia, rust and deep olive. Light theme Try it on" [ref=e950] [cursor=pointer]':
+                - generic [ref=e951]: Aa
+                - generic [ref=e968]:
+                  - generic [ref=e969]:
+                    - generic [ref=e970]: Gruvbox Light
+                    - generic [ref=e971]: Free
+                  - paragraph [ref=e972]: "Gruvbox on cream paper: sepia, rust and deep olive."
+                  - generic [ref=e973]: Light theme
+                - button "Try it on" [ref=e981]
+              - 'link "Kanagawa Free Inspired by Hokusai''s The Great Wave off Kanagawa: sumi ink with wave blue and washi white. Dark theme Try it on" [ref=e982] [cursor=pointer]':
+                - generic [ref=e983]: Aa
+                - generic [ref=e1000]:
+                  - generic [ref=e1001]:
+                    - generic [ref=e1002]: Kanagawa
+                    - generic [ref=e1003]: Free
+                  - paragraph [ref=e1004]: "Inspired by Hokusai's The Great Wave off Kanagawa: sumi ink with wave blue and washi white."
+                  - generic [ref=e1005]: Dark theme
+                - button "Try it on" [ref=e1013]
+              - link "Manuscript Free Cream paper, ink-blue text and a red-pen accent, set in Computer Modern. Light theme Try it on" [ref=e1014] [cursor=pointer]:
+                - generic [ref=e1015]: Aa
+                - generic [ref=e1032]:
+                  - generic [ref=e1033]:
+                    - generic [ref=e1034]: Manuscript
+                    - generic [ref=e1035]: Free
+                  - paragraph [ref=e1036]: Cream paper, ink-blue text and a red-pen accent, set in Computer Modern.
+                  - generic [ref=e1037]: Light theme
+                - button "Try it on" [ref=e1045]
+              - link "Nocturne Free Deep indigo night with a soft violet accent. Dark theme Try it on" [ref=e1046] [cursor=pointer]:
+                - generic [ref=e1047]: Aa
+                - generic [ref=e1064]:
+                  - generic [ref=e1065]:
+                    - generic [ref=e1066]: Nocturne
+                    - generic [ref=e1067]: Free
+                  - paragraph [ref=e1068]: Deep indigo night with a soft violet accent.
+                  - generic [ref=e1069]: Dark theme
+                - button "Try it on" [ref=e1077]
+              - 'link "Nord Free An arctic, north-bluish palette: calm polar night greys with frost blues. Dark theme Try it on" [ref=e1078] [cursor=pointer]':
+                - generic [ref=e1079]: Aa
+                - generic [ref=e1096]:
+                  - generic [ref=e1097]:
+                    - generic [ref=e1098]: Nord
+                    - generic [ref=e1099]: Free
+                  - paragraph [ref=e1100]: "An arctic, north-bluish palette: calm polar night greys with frost blues."
+                  - generic [ref=e1101]: Dark theme
+                - button "Try it on" [ref=e1109]
+              - 'link "One Dark Free Atom''s iconic dark theme: cool grey with soft, balanced syntax colours. Dark theme Try it on" [ref=e1110] [cursor=pointer]':
+                - generic [ref=e1111]: Aa
+                - generic [ref=e1128]:
+                  - generic [ref=e1129]:
+                    - generic [ref=e1130]: One Dark
+                    - generic [ref=e1131]: Free
+                  - paragraph [ref=e1132]: "Atom's iconic dark theme: cool grey with soft, balanced syntax colours."
+                  - generic [ref=e1133]: Dark theme
+                - button "Try it on" [ref=e1141]
+              - 'link "Rosé Pine Free All natural pine, faux fur and a bit of soho vibes: deep violet with rose and gold. Dark theme Try it on" [ref=e1142] [cursor=pointer]':
+                - generic [ref=e1143]: Aa
+                - generic [ref=e1160]:
+                  - generic [ref=e1161]:
+                    - generic [ref=e1162]: Rosé Pine
+                    - generic [ref=e1163]: Free
+                  - paragraph [ref=e1164]: "All natural pine, faux fur and a bit of soho vibes: deep violet with rose and gold."
+                  - generic [ref=e1165]: Dark theme
+                - button "Try it on" [ref=e1173]
+              - 'link "Rosé Pine Dawn Free Rosé Pine at dawn: warm linen with rose, pine and iris. Light theme Try it on" [ref=e1174] [cursor=pointer]':
+                - generic [ref=e1175]: Aa
+                - generic [ref=e1192]:
+                  - generic [ref=e1193]:
+                    - generic [ref=e1194]: Rosé Pine Dawn
+                    - generic [ref=e1195]: Free
+                  - paragraph [ref=e1196]: "Rosé Pine at dawn: warm linen with rose, pine and iris."
+                  - generic [ref=e1197]: Light theme
+                - button "Try it on" [ref=e1205]
+              - 'link "Rosé Pine Moon Free Rosé Pine by moonlight: a softer twilight violet. Dark theme Try it on" [ref=e1206] [cursor=pointer]':
+                - generic [ref=e1207]: Aa
+                - generic [ref=e1224]:
+                  - generic [ref=e1225]:
+                    - generic [ref=e1226]: Rosé Pine Moon
+                    - generic [ref=e1227]: Free
+                  - paragraph [ref=e1228]: "Rosé Pine by moonlight: a softer twilight violet."
+                  - generic [ref=e1229]: Dark theme
+                - button "Try it on" [ref=e1237]
+              - 'link "Solarized Dark Free Ethan Schoonover''s precision palette, built on fixed lightness relationships: deep teal. Dark theme Try it on" [ref=e1238] [cursor=pointer]':
+                - generic [ref=e1239]: Aa
+                - generic [ref=e1256]:
+                  - generic [ref=e1257]:
+                    - generic [ref=e1258]: Solarized Dark
+                    - generic [ref=e1259]: Free
+                  - paragraph [ref=e1260]: "Ethan Schoonover's precision palette, built on fixed lightness relationships: deep teal."
+                  - generic [ref=e1261]: Dark theme
+                - button "Try it on" [ref=e1269]
+              - 'link "Solarized Light Free Solarized on its own cream: the same accents, flipped base. Light theme Try it on" [ref=e1270] [cursor=pointer]':
+                - generic [ref=e1271]: Aa
+                - generic [ref=e1288]:
+                  - generic [ref=e1289]:
+                    - generic [ref=e1290]: Solarized Light
+                    - generic [ref=e1291]: Free
+                  - paragraph [ref=e1292]: "Solarized on its own cream: the same accents, flipped base."
+                  - generic [ref=e1293]: Light theme
+                - button "Try it on" [ref=e1301]
+              - 'link "Tokyo Night Free The lights of downtown Tokyo at night: deep navy with neon blue and magenta. Dark theme Try it on" [ref=e1302] [cursor=pointer]':
+                - generic [ref=e1303]: Aa
+                - generic [ref=e1320]:
+                  - generic [ref=e1321]:
+                    - generic [ref=e1322]: Tokyo Night
+                    - generic [ref=e1323]: Free
+                  - paragraph [ref=e1324]: "The lights of downtown Tokyo at night: deep navy with neon blue and magenta."
+                  - generic [ref=e1325]: Dark theme
+                - button "Try it on" [ref=e1333]
+              - 'link "Tokyo Night Day Free Tokyo Night in daylight: cool grey with ink-blue text. Light theme Try it on" [ref=e1334] [cursor=pointer]':
+                - generic [ref=e1335]: Aa
+                - generic [ref=e1352]:
+                  - generic [ref=e1353]:
+                    - generic [ref=e1354]: Tokyo Night Day
+                    - generic [ref=e1355]: Free
+                  - paragraph [ref=e1356]: "Tokyo Night in daylight: cool grey with ink-blue text."
+                  - generic [ref=e1357]: Light theme
+                - button "Try it on" [ref=e1365]
+              - 'link "Tokyo Night Storm Free Tokyo Night under storm clouds: a lighter slate-navy with a violet accent. Dark theme Try it on" [ref=e1366] [cursor=pointer]':
+                - generic [ref=e1367]: Aa
+                - generic [ref=e1384]:
+                  - generic [ref=e1385]:
+                    - generic [ref=e1386]: Tokyo Night Storm
+                    - generic [ref=e1387]: Free
+                  - paragraph [ref=e1388]: "Tokyo Night under storm clouds: a lighter slate-navy with a violet accent."
+                  - generic [ref=e1389]: Dark theme
+                - button "Try it on" [ref=e1397]
+            - button "Previous themes"
+            - button "Next themes" [ref=e1398]
+        - paragraph [ref=e1401]: Everything in the Market fits a 13+ age rating. If something doesn't, report it from its page.
+    - generic [ref=e288]:
+      - tooltip "Hm? Ask me ⌘J or drag me":
+        - text: Hm?Ask me ⌘J
+        - generic: or drag me
+      - button "Ask Minimi · ⌘J" [ref=e289]
+  - region "Notifications alt+T"

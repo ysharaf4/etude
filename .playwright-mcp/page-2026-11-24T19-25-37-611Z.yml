@@ -1,0 +1,86 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - complementary "Main" [ref=e4]:
+      - separator "Resize the sidebar" [ref=e5]
+      - generic [ref=e6]:
+        - button "Etude, go to Library" [ref=e7]:
+          - generic "Etude" [ref=e8]: εtude
+        - button "Fold sidebar" [expanded] [ref=e9]
+      - tablist "Show in the sidebar" [ref=e12]:
+        - tab "Pages" [selected] [ref=e13]
+        - tab "Chats" [ref=e14]
+      - navigation [ref=e15]:
+        - generic [ref=e16]:
+          - generic [ref=e17]: Study
+          - button "Library" [ref=e20]
+          - generic [ref=e24]:
+            - button "Notebook" [expanded] [ref=e25]
+            - tree "Pages" [ref=e32]:
+              - treeitem "Fold Notes showcase" [expanded] [ref=e33] [cursor=pointer]:
+                - button "Fold" [ref=e34]
+                - generic [ref=e37]: Notes showcase
+              - treeitem "Start here" [ref=e38] [cursor=pointer]
+              - treeitem "Writing basics" [ref=e40] [cursor=pointer]
+              - treeitem "Links, tags and the graph" [ref=e42] [cursor=pointer]
+              - treeitem "Math, tables and callouts" [ref=e44] [cursor=pointer]
+              - treeitem "Look and layout" [ref=e46] [cursor=pointer]
+              - treeitem "Cards inside a page" [ref=e48] [cursor=pointer]
+              - treeitem "Code you can run" [ref=e50] [cursor=pointer]
+              - treeitem "Pictures, video and PDFs" [ref=e52] [cursor=pointer]
+              - treeitem "Drawing with canvases" [ref=e54] [cursor=pointer]
+              - treeitem "Tabs, split view and the sidebar" [ref=e56] [cursor=pointer]
+              - treeitem "Study loop · canvas CANVAS" [ref=e58] [cursor=pointer]:
+                - generic [ref=e59]: Study loop · canvas
+                - generic [ref=e60]: CANVAS
+              - treeitem "Why spaced retrieval works.pdf PDF" [ref=e61] [cursor=pointer]:
+                - generic [ref=e62]: Why spaced retrieval works.pdf
+                - generic [ref=e63]: PDF
+              - treeitem "Unfold Code files" [ref=e64] [cursor=pointer]:
+                - button "Unfold" [ref=e65]
+                - generic [ref=e68]: Code files
+          - button "Browse" [ref=e70]
+          - button "Stats" [ref=e77]
+          - button "Archive" [ref=e81]
+        - generic [ref=e86]:
+          - generic [ref=e87]: Make
+          - button "Card types" [ref=e90]
+          - button "Market" [ref=e98]
+      - button "Settings · test · Sync on" [ref=e106]:
+        - generic [aria-hidden] [ref=e108]: T
+        - generic [ref=e110]:
+          - generic [ref=e111]: test
+          - generic [ref=e112]: Sync on
+    - main [ref=e117]:
+      - generic [ref=e291]:
+        - generic [ref=e292]:
+          - generic [ref=e293]:
+            - heading "Market" [level=1] [ref=e294]
+            - paragraph [ref=e295]:
+              - text: Decks, card types, themes and plugins people made. Most of it is free.
+              - link "Browse on GitHub" [ref=e296] [cursor=pointer]:
+                - /url: https://github.com/Zibhelina/etude-market
+          - button "Refresh" [ref=e297]
+        - navigation "Market sections" [ref=e298]:
+          - button "Discover" [ref=e299]
+          - button "Yours" [active] [ref=e300]
+          - button "Selling" [ref=e301]
+        - generic [ref=e1402]:
+          - generic [ref=e1403]:
+            - generic [ref=e1404]:
+              - generic [ref=e1405]: Bought
+              - generic [ref=e1406]: Tied to your Etude account, on every device.
+            - generic [ref=e1407]: Decks you buy appear here, on every device signed in to your account.
+          - generic [ref=e1409]:
+            - generic [ref=e1410]: Installed from the Market
+            - generic [ref=e1412]: Nothing yet. Decks, card types and plugins you install show up here.
+          - generic [ref=e1414]:
+            - generic [ref=e1415]:
+              - generic [ref=e1416]: Themes
+              - button "Browse themes" [ref=e1417]
+            - generic [ref=e1418]: You're on System. Themes you install from the Market show up here.
+    - generic [ref=e288]:
+      - tooltip "Hm? Ask me ⌘J or drag me":
+        - text: Hm?Ask me ⌘J
+        - generic: or drag me
+      - button "Ask Minimi · ⌘J" [ref=e289]
+  - region "Notifications alt+T"

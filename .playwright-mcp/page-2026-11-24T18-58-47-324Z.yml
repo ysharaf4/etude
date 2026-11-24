@@ -1,0 +1,7 @@
+- alert [ref=f1e363]:
+  - generic [ref=f1e364]:
+    - heading "This screen ran into a problem" [level=1] [ref=f1e365]
+    - paragraph [ref=f1e366]: Your cards and reviews are safe. Going back to Decks usually fixes it; if it keeps happening, reload Etude.
+    - generic [ref=f1e367]:
+      - button "Back to Decks" [ref=f1e368]
+      - button "Reload" [ref=f1e369]

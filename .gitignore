@@ -19,6 +19,8 @@ src/browser/gen/
 # symlinked dependency folders in worktrees
 node_modules
 .private-backups/
+.wrangler/
+worker-configuration.d.ts
 
 # desktop app build output
 desktop/dist/

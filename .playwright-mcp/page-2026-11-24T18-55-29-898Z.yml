@@ -1,0 +1,36 @@
+- generic [ref=f1e2]:
+  - generic [ref=f1e3]:
+    - complementary "Main" [ref=f1e4]:
+      - separator "Resize the sidebar" [ref=f1e5]
+      - generic [ref=f1e6]:
+        - button "Etude, go to Library" [ref=f1e7]:
+          - generic "Etude" [ref=f1e8]: εtude
+        - button "Fold sidebar" [expanded] [ref=f1e9]
+      - tablist "Show in the sidebar" [ref=f1e12]:
+        - tab "Pages" [selected] [ref=f1e13]
+        - tab "Chats" [ref=f1e14]
+      - navigation [ref=f1e15]:
+        - generic [ref=f1e16]:
+          - generic [ref=f1e17]: Study
+          - button "Library" [ref=f1e20]
+          - generic [ref=f1e24]:
+            - button "Notebook" [expanded] [ref=f1e25]
+            - generic [ref=f1e31]:
+              - tree "Pages"
+          - button "Browse" [ref=f1e33]
+          - button "Stats" [ref=f1e40]
+          - button "Archive" [ref=f1e44]
+        - generic [ref=f1e49]:
+          - generic [ref=f1e50]: Make
+          - button "Card types" [ref=f1e53]
+          - button "Market" [ref=f1e61]
+      - button "Settings · Sign in" [ref=f1e69]:
+        - generic [ref=f1e75]: Sign in
+    - main [ref=f1e83]:
+      - heading "Settings" [level=1] [ref=f1e86]
+    - generic [ref=f1e91]:
+      - tooltip "Hm? Ask me ⌘J or drag me":
+        - text: Hm?Ask me ⌘J
+        - generic: or drag me
+      - button "Ask Minimi · ⌘J" [ref=f1e92]
+  - region "Notifications alt+T"
